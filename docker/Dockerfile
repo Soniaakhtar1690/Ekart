@@ -4,7 +4,7 @@ EXPOSE 8070
 
 ENV APP_HOME /usr/src/app
 
-COPY target/Ekart-0.0.1-SNAPSHOT.jar $APP_HOME/Ekart.jar
+COPY target/ekart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
